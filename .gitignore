@@ -1,0 +1,48 @@
+######################################################################
+# Build Tools
+
+.gradle
+/build/
+gradle/wrapper/gradle-wrapper.jar
+
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# IDE
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+######################################################################
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+
+
+*.jar
+*target*/
+*dist*/
+*node_modules*/
+
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+!maven-repo
+
+*.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.local
