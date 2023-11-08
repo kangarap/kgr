@@ -25,6 +25,7 @@ gradle/wrapper/gradle-wrapper.jar
 
 
 *.jar
+!maven-repo**/*.jar
 *target*/
 *dist*/
 *node_modules*/
@@ -34,7 +35,6 @@ gradle/wrapper/gradle-wrapper.jar
 !*/build/*.html
 !*/build/*.xml
 
-!maven-repo
 
 *.DS_Store
 
